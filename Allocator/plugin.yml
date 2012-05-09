@@ -1,0 +1,11 @@
+name: Allocator
+main: com.benzrf.allocator.Allocator
+version: 0.0
+commands:
+ allocator:
+  description: Defines an allocator.
+  usage: Unknown command. Type "help" for help.
+permissions:
+ allocator.create:
+  description: Grants the ability to use /allocate.
+  default: op
